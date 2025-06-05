@@ -28,8 +28,8 @@ This project explores a dataset of movies sourced from IMDb. Using Python and Ju
 ## 📁 Project Structure
 
 MovieRatingsAnalysis/
-├── Movie_Analysis.ipynb # Main notebook with code & visualizations
-├── movie_metadata.csv # Raw dataset
 ├── .gitignore # Excludes temp files/checkpoints
-└── README.md # Project overview (this file)
+├── Movie_Analysis.ipynb # Main notebook with code and visuals
+├── README.md # Project overview (this file)
+└── movie_metadata.csv # Raw IMDb dataset
 
