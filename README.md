@@ -1,86 +1,69 @@
-# IMDb Movie Ratings Analysis 
+# IMDb Movie Ratings Analysis
 
-This project explores a dataset of movies sourced from IMDb. Using Python and Jupyter Notebook, I conducted an exploratory data analysis (EDA) to uncover trends and insights related to IMDb scores, genres, budgets, directors, and more.
+This projecct explores trends in movie ratings using the [IDMb 5000 Movie Dataset](https://www.kaggle.com/datasets/carolzhangdc/imdb-5000-movie-dataset). The goal is to uncover insights into what affects a movie's rating, such as genre, duration, or release year.
 
----
-
-## Project Goals
-
-- Clean and prepare raw movie data
-- Identify patterns in IMDb ratings
-- Visualize relationships between variables such as:
-  - Budget vs. IMDb score
-  - Genre vs. average rating
-  - Director performance
-- Summarize key findings with clear visuals
+![Top 10 IMDb Movies](top_movies.png)
 
 ---
 
-## Tools & Technologies
+## Dataset
 
-- Python (pandas, numpy)
-- Jupyter Notebook
-- Seaborn & Matplotlib
-- Git & GitHub
-- SQLite (via 'sqlite3')
-- GitHub
+- File used: 'movie_metadata.csv'
+- Source: Kaggle (public dataset)
+- Contains 5000+ movies with 28 features, including:
+  - 'movie_title'
+  - 'genres'
+  - 'duration'
+  - 'imdb_score'
+  - 'gross'
+  - 'title_year'
 
----
+  ---
 
-# Key SQL Queries Included
+  ## Project Goals
 
-- Top 10 movies by IMdb score
-- Average score per director (min 3 movies)
-- Most common genres (top 15)
-- Director with the most films
-- IMDb score by movie duration category
+  - Clean and explore the dataset
+  - Analyze distriburtions of IMDb scores
+  - Identify top-rated movies
+  - Examine patterns by genre and duration
+  - Visualize data with charts
 
----
+  ---
 
-## Visualizations
+  ## Tools Used
 
-- Bar chart of top genres by count (coming soon)
-- Average IMDb scores by duration category
+  - Python 3.11
+  - JupyterLab / Jupyter Notebook
+  - Pandas
+  - Matplotlib
 
----
+  ---
 
-## What You'll Learn
+  ## Sample Insights
 
-This project demonstrates how to:
-- Import and clean dataset in Pandas
-- Load data into SQL's for complex SQL queries
-- Visualize SWL query results in Python
-- Combine data analysis skills into a portfolo-ready notebook
+  - Most movies have IMDb scores between 5.5 and 7.5
+  - Drama is the most frequent genre
+  - Higher eduacation does not always lead to better ratings
 
----
+  ---
 
-## 📁 Project Structure
+  ## Files
 
-MovieRatingsAnalysis/
-├── .gitignore # Excludes temp files/checkpoints
-├── Movie_Analysis.ipynb # Main notebook with code and visuals
-├── README.md # Project overview (this file)
-├── imdb_movies.db # SQLite database generated from the CSV file
-└── movie_metadata.csv # Raw IMDb dataset
+  - 'Move_Analysis.ipynd' - Jypyter Notebook with full analysis
+  - 'movie_metadata.csv' - original dataset
+  - 'README.md' - project overview
 
----
+  ---
 
-## How to Run
+  ## How to Run
 
-1. Open 'Movie_Analysis.ipynb' in Jupyter Notebook
-2. Run all cells sequentially to see results
-3. you can optionally load the '.db' file to explore with your own SQL tools
+  1. Clone or download the repo
+  2. Open 'Movie_Analysis.ipynd' in Jupyter
+  3. Run the notebook to reproduce the analysis
 
----
+  ---
 
-## Author
+  ## Author
 
-**Hallene Broks**
-GitHub: [HCBrooks-lab](https://github.com/HCBrooks-lab)
-
----
-
-## Notes
-
-This analysis is part of a growing data analysis portfolio. Feedback and suggestions are welcome!
-
+  Hallene Brooks 
+  GitHub | (https://github.com/HCBrooks-lab) 
