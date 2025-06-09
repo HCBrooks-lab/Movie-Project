@@ -61,7 +61,7 @@ This project explores trends in movie ratings using the [IMDb 5000 Movie Dataset
   ## How to Run
 
   1. Clone or download the repo
-  2. Open 'Movie_Analysis.ipynd' in Jupyter
+  2. Open 'Movie_Analysis.ipynb' in Jupyter
   3. Run the notebook to reproduce the analysis
 
   ---
