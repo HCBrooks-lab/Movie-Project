@@ -45,7 +45,10 @@ This project explores trends in movie ratings using the [IMDb 5000 Movie Dataset
   - Drama is the most frequent genre.
   - Longer movies (>120 min) tend to have slightly higher average IMDb scores.
   - Top-rated directors often have 3 or more highly rated films.
-  - Steven Spielberg has directed the most films in the dataset (26). 
+  - Steven Spielberg has directed the most films in the dataset (26).
+  - The top 10 highest-rated films (shown in image) include classics like *The
+    Shawshank Redemption*, *The Godfather*, and *The Dark Knight*, with IMDb
+    scores ranging from 8.9 to 9.5. 
 
   ---
 
