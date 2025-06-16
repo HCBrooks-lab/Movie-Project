@@ -20,6 +20,28 @@ This project explores trends in movie ratings using the [IMDb 5000 Movie Dataset
 
   ---
 
+## Column Descriptions
+
+This section outlines selecct columns from the movie_metadata.csv dataset used in this analysis. 
+
+- **color**: Film color format (Black and White)
+- **director_name**: Name of the movie's director
+- **duration**: Runtime in minutes
+- **genres**: Genres assigned to the film (pipe-separated)
+- **actor_1_name**: Lead actor's name
+- **actor_2_name**: Second-billed actor
+- **actor_3_name**: Third-billed actor
+- **gross**: Box office earnings (USD)
+- **budget**: Estimated producction budget
+- **title_year**: Year the movie was released
+- **imdb_score**: IMDb rating (1–10 scale)
+- **movie_facebook_likes**: Facebook likes for the movie page
+- **content_rating**: MPAA rating (e.g., PG-13, R)
+- **language**: Language of the film
+- **country**: Country of production
+  
+  ---
+
   ## Project Goals
 
   - Clean and explore the dataset
