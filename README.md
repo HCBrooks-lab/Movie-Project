@@ -78,8 +78,8 @@ This section outlines select columns from the movie_metadata.csv dataset used in
    - Horizontal bar chart.
 
 10. Average IMDb Score by Year
-   - Avg. yearly rating.
-   - Scatter plot.
+    - Avg. yearly rating.
+    - Scatter plot.
 
 11. IMDb Score vs. Gross Revenue
     - Correlation view.
@@ -131,22 +131,22 @@ This section outlines select columns from the movie_metadata.csv dataset used in
 
 ## Project Insights
 
-1. **Drama is the Most Dominant Genre**
+1. **Drama is the Most Dominant Genre:**
    Drama appears more frequently than any other genre, either alone or in
    combination with others, confirming its strong presence across all decades
    of filmmaking.
 
-2. **Christopher Nolan Leads in Average Ratings**
+2. **Christopher Nolan Leads in Average Ratings:**
    Among directors with at least five movies, Christopher Nolan consistently
    receives the highest IMDb scores - showcasing both quality and
    consistency.
 
-3. **Movie Production Peaked Around 2010-2015**
+3. **Movie Production Peaked Around 2010-2015:**
    The number of movies released each year surged dramatically during the
    2000's, peaking around 2014 before dipping- likely due to shifts in
    digital media consumption.
 
-4. **High IMDb Scores Don't Always Equal High Revenue**
+4. **High IMDb Scores Don't Always Equal High Revenue:**
    A scatter plot comparing IMDb scores and box office gross reveals weak
    correlation, suggesting factors like marketing and franchise popularity
    influence revenue more than critical acclaim. 
