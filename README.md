@@ -22,7 +22,7 @@ This project explores trends in movie ratings using the [IMDb 5000 Movie Dataset
 
 ## Column Descriptions
 
-This section outlines selecct columns from the movie_metadata.csv dataset used in this analysis. 
+This section outlines select columns from the movie_metadata.csv dataset used in this analysis. 
 
 - **color**: Film color format (Black and White)
 - **director_name**: Name of the movie's director
