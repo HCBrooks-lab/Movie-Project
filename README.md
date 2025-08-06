@@ -42,13 +42,11 @@ This project explores a dataset of IMDb movies, examining genre trends, director
 
 ## Recent Additions 
 
-- ## Seasonal Analysis for Movie Releases
-  Analyzing average monthly movie release patterns, grouping releases by month to
-  identify seasonal trends.
-- ## Filtered Year Range for Seasonality
-  Instead of showing all years, I've filtered the seasonality analysis to a specific
-  range of recent years to avoid a cluttered/noisy chart and make trends more
-  meaningful. 
+- ## Genre Popularity Over Time:
+  Line chart showing top genres by decade. 
+- ## Most Consistently High-Rated Directors with 3 or More Films:
+  SQL and Pandas analysis ranking directors by average IMDb score with standard
+  deviation for conistency. 
 
 ---
 
