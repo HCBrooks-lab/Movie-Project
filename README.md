@@ -56,11 +56,13 @@ This project explores a dataset of IMDb movies, examining genre trends, director
 - Time-Series Trends
 - Predictive Insights
 - Interactive Elements
-- Fun Extras 
+- Fun Extras
+- Improve Scatterplot Clarity
+- Additional Queries
+- More Detailed Explanations on Data Cleaning Steps
  
 ---
  
-
 ## Project Insights
 
 1. **Drama is the Most Dominant Genre:**
@@ -82,7 +84,6 @@ This project explores a dataset of IMDb movies, examining genre trends, director
    A scatter plot comparing IMDb scores and box office gross reveals weak
    correlation, suggesting factors like marketing and franchise popularity
    influence revenue more than critical acclaim. 
-
 
 ---
 
