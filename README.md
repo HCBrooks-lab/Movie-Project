@@ -23,7 +23,7 @@ This project explores a dataset of IMDb movies, examining genre trends, director
 
 ## 1. Top 10 Movies by IMDb Score 
 ## 2. Most Common Genres 
-## 3. Top Directores by Average Score
+## 3. Top Directors by Average Score
 ## 4. Movie Count Over Time
 ## 5. Highest-Grossing Movies 
 ## 6. Average IMDb Score by Year
@@ -46,7 +46,7 @@ This project explores a dataset of IMDb movies, examining genre trends, director
   Line chart showing top genres by decade. 
 - ## Most Consistently High-Rated Directors with 3 or More Films:
   SQL and Pandas analysis ranking directors by average IMDb score with standard
-  deviation for conistency. 
+  deviation for consistency. 
 
 ---
 
