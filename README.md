@@ -97,7 +97,7 @@ This project explores a dataset of IMDb movies, examining genre trends, director
 
 ## Conclusion 
 
-TThis analysis provided a comprehensive exploration of IMDb movie data using SQL and Python visualizations. By examining factors such as genre distribution, director performance, revenue patterns, and IMDb scores, the project uncovered several key insights including the dominance of drama as a genre, the consistent high ratings of directors like Christopher Nolan, and the surge in movie production during the early 2010s.
+This analysis provided a comprehensive exploration of IMDb movie data using SQL and Python visualizations. By examining factors such as genre distribution, director performance, revenue patterns, and IMDb scores, the project uncovered several key insights including the dominance of drama as a genre, the consistent high ratings of directors like Christopher Nolan, and the surge in movie production during the early 2010s.
 
 The findings highlight that critical acclaim (IMDb scores) and commercial success (gross revenue) do not always align, pointing to the influence of factors such as marketing, franchise popularity, and audience engagement. Overall, the project demonstrates how structured queries and clear visualizations can reveal meaningful patterns in large datasets, providing a strong foundation for more advanced analytics and predictive modeling in the future.
 
