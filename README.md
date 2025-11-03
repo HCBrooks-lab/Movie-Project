@@ -19,6 +19,20 @@ This project explores a dataset of IMDb movies, examining genre trends, director
 
 ---
 
+## Visual Insights
+
+### IMDb Rating Distribution by Decade
+This boxplot illustrates how IMDb rating distributions have evolved across decades. Each box represents the interquartile range (middle 50% of ratings), while later decades show broader variations and slightly lower averages. 
+**Figure:** `imdb_rating_by_decade.png`
+
+
+### IMDB Rating Distribution by Decade
+This boxplot illustrates how IMDb rating distributions have evolved across decades.
+Each box represents the interquartile (middle 50% of ratings), with the red diamond marking the mean rating. Earleir decades show smaller sample sizes gnerally higher central ratings, while later decades show broader variation and slightly lower averages. 
+**Figure:** `imdb_rating_by_decade.png`
+
+---
+
 ## Key Analysis Sections 
 
 ## 1. Top 10 Movies by IMDb Score 
@@ -31,36 +45,6 @@ This project explores a dataset of IMDb movies, examining genre trends, director
 ## 8. Fun Queries - Longest & Shortest Titles
 ## 9. Distribution of IMDb Scores
 
----
-
-## Tools
-
-- SQL (SQLite3)
-- Python 3.11
-- Pandas, Matplotlib
-- Jupyter Notebook
-
-## Recent Additions 
-
-- ## Genre Popularity Over Time:
-  Line chart showing top genres by decade. 
-- ## Most Consistently High-Rated Directors with 3 or More Films:
-  SQL and Pandas analysis ranking directors by average IMDb score with standard
-  deviation for consistency. 
-
----
-
-## Upcoming & Future Enhancements
-
-- Advanced Visualizations
-- Time-Series Trends
-- Predictive Insights
-- Interactive Elements
-- Fun Extras
-- Improve Scatterplot Clarity
-- Additional Queries
-- More Detailed Explanations on Data Cleaning Steps
- 
 ---
  
 ## Project Insights
@@ -83,9 +67,42 @@ This project explores a dataset of IMDb movies, examining genre trends, director
 4. **High IMDb Scores Don't Always Equal High Revenue:**
    A scatter plot comparing IMDb scores and box office gross reveals weak
    correlation, suggesting factors like marketing and franchise popularity
-   influence revenue more than critical acclaim. 
+   influence revenue more than critical acclaim.
+
+5. **Later Decades Show Greater Rating Variability:**
+   As film production expanded from the 1980s onward, IMDb ratings became more
+   dispersed, with both higher highs and lower lows. This pattern shows that as
+   industry scaled up and diversified globally, the range of film quality and
+   audience reception widened. 
 
 ---
+
+## Tools Used
+
+- SQL (SQLite3)
+- Python 3.11
+- Pandas, Matplotlib, Seaborn
+- Jupyter Notebook
+
+---
+
+## Recent Additions
+
+- Added "Movies Released per Decade" visual to contextualize rating trends.
+- Cleaned and restructured plotting cells.
+- Improved figure export consistency across visuals.
+
+---
+
+## Upcoming Enhancements
+
+- Advanced visualizations
+- Time-Series Trends
+- Predictive Insights
+- Interactie Elements
+- Additional Queries
+- Improved Scatterplot Clarity
+- More Detailed Data Cleaning Notes
 
 ## How to Run
 
@@ -97,9 +114,7 @@ This project explores a dataset of IMDb movies, examining genre trends, director
 
 ## Conclusion 
 
-This analysis provided a comprehensive exploration of IMDb movie data using SQL and Python visualizations. By examining factors such as genre distribution, director performance, revenue patterns, and IMDb scores, the project uncovered several key insights including the dominance of drama as a genre, the consistent high ratings of directors like Christopher Nolan, and the surge in movie production during the early 2010s.
-
-The findings highlight that critical acclaim (IMDb scores) and commercial success (gross revenue) do not always align, pointing to the influence of factors such as marketing, franchise popularity, and audience engagement. Overall, the project demonstrates how structured queries and clear visualizations can reveal meaningful patterns in large datasets, providing a strong foundation for more advanced analytics and predictive modeling in the future.
+This analysis provides a comprehensive exploration of IMDb data using SQL and Python. It reveals across genres, directors, and decades, highlighting how data-driven storytelling can uncover both creative and commercial trends. 
 
 ---
 
