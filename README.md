@@ -24,7 +24,7 @@ This project explores a dataset of IMDb movies, examining genre trends, director
 ### IMDb Rating Distribution by Decade
 This boxplot illustrates how IMDb rating distributions have evolved across decades. Each box represents the interquartile range (middle 50% of ratings), while later decades show broader variations and slightly lower averages. 
 
-![IMDb Rating Distribution by Decade](figures/imdb_rating_by_decade.png)
+![IMDb Rating Distribution by Decade](imdb_rating_by_decade.png)
 
 ---
 
